@@ -6,15 +6,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chicken</title>
+    <link rel="stylesheet" href="app.css">
 
 </head>
 
 <body>
-    <h1>Chickens!</h1>
-    <p>Lorem, ipsum dolor sit amer consectetur asipsisicing elite.
-        Fugiar dolores sequi deleniti!
-            atque, rerum culpa
-            harum quia quas
+
+    <svg viewBox="0 0 600 300">
+        <!-- Symbol-->
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="50%" dy=".35em">Chickens!</text>
+        </symbol>
+        <!-- Duplicate symbols-->
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+      </svg>
+
+
+    <h3>Source if the Animated text:</h3>
+    <p>
+        https://codepen.io/cesar2535/pen/ByYXpN
     </p>
 </body>
 
